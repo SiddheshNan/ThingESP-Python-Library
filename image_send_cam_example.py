@@ -22,3 +22,4 @@ thing.setCallback(handleResponse).start()
 while True:
     frame = cam.read()
     cv2.imshow('webcam', frame)
+    cv2.waitKey(1)
